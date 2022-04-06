@@ -15,7 +15,7 @@ To begin password generator, you will need to click on the button Generate Passw
 ![image](https://user-images.githubusercontent.com/98362675/162073617-66001ebc-243c-48c8-8500-ce995d67e173.png)
 
 
-Next you will be given a series of prompts to decide what characters (special, uppercase & lowercase letters, & numbers) you want to include in your password. Some of the prompts used are shown in the screenshots below. Then after you have went through the prompts the password will appear on the screen for use.
+Next you will be given a series of prompts to decide what characters (special, uppercase & lowercase letters, & numbers) you want to include in your password. Some of the prompts used are shown in the screenshots below. Then after the prompts, the generated password will appear on the screen for use.
 
 ![image](https://user-images.githubusercontent.com/98362675/162074057-04f7363c-6769-49c3-bc7b-4f94ccb0a261.png)
 
