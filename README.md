@@ -1,14 +1,19 @@
 # Password Generator
 
-This homework assignment applies what we learned in Javascript mainly. We created a password generator using functions, window promts, and eventListeners within Javascript.
+### Development Process
+This homework assignment applies what was learned in Javascript. The password generator was created using functions, window promts, eventListeners, and if/else statements within Javascript.
 
 ## Getting Started
 
 ### Prerequisites
 
-* Visual Studio Code, GitBash, & Google Chrome
+* Google Chrome or any Web Browser
 
-## Deployment
+### Installation
+
+* Installation of Google Chrome Browser or any web browser
+
+## Functionality
 
 To begin password generator, you will need to click on the button Generate Password. 
 
@@ -25,9 +30,11 @@ Next you will be given a series of prompts to decide what characters (special, u
 
 ![image](https://user-images.githubusercontent.com/98362675/162074282-dde2ab98-398b-4b14-a9fe-d7779c0ff114.png)
 
-## Built With
+## Technologies Used
 
-* Visual Studio Code & Bootstrap 5
+* Visual Studio Code
+* Bootstrap 5
+* Google Chrome
 
 ## Link to Password Generator
 
