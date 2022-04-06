@@ -50,11 +50,12 @@ function generatePassword() {
 
   console.log(masterArray);
   // arrays are combined into one array called masterArray
-  passwordChar = toString(masterArray);
+  // passwordChar = toString(masterArray);
+  // console.log(passwordChar);
   // masterArray is then changed into a string
   let password = "" //define empty string as a container
   for (let i = 0; i < passwordLength; i++) {
-    password += passwordChar[Math.floor(Math.random() * passwordChar.length)] //add generated character to the string
+    password += masterArray[Math.floor(Math.random() * masterArray.length)] //add generated character to the string
   }
   return password;
 
