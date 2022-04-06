@@ -19,33 +19,40 @@ function writePassword() {
 generateBtn.addEventListener("click", writePassword);
 
 
-function generatePassword(){
+function generatePassword() {
   var promptBegin = window.confirm('Generate new Password?');
   var promptChar = prompt('# of Characters for new Password. At least 8, less than 128');
   var passwordLength = parseInt(promptChar)
-  
+
   var promptUpCase = window.confirm("Password to contain Uppercase Letters?");
-  if(promptUpCase){
-   masterArray = uppercase;   
-  }
+  if (promptUpCase) {
+    masterArray = uppercase;
+  } else
+    masterArray = masterArray;
+
   var promptLowCase = window.confirm("Password to contain Lowercase Letters?");
-  if(promptLowCase){
-   masterArray  = masterArray.concat(lowercase);
-  }
+  if (promptLowCase) {
+    masterArray = masterArray.concat(lowercase);
+  } else
+    masterArray = masterArray;
+
   var promptNum = window.confirm("Password to contain numbers?");
-  if(promptNum) {
-   masterArray  = masterArray.concat(numberChars);
-  }
+  if (promptNum) {
+    masterArray = masterArray.concat(numberChars);
+  } else
+    masterArray = masterArray;
+
   var promptspecial = window.confirm("Password to contain special characters (!,@,#...?)");
-  if(promptspecial){
-   masterArray  = masterArray.concat(specialChars);
-  }
-  
+  if (promptspecial) {
+    masterArray = masterArray.concat(specialChars);
+  } else
+    masterArray = masterArray;
+
   console.log(masterArray);
   // arrays are combined into one array called masterArray
   passwordChar = toString(masterArray);
   // masterArray is then changed into a string
-  let password  = "" //define empty string as a container
+  let password = "" //define empty string as a container
   for (let i = 0; i < passwordLength; i++) {
     password += passwordChar[Math.floor(Math.random() * passwordChar.length)] //add generated character to the string
   }
